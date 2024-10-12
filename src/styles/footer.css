@@ -1,0 +1,38 @@
+footer {
+  margin-top: 5%;
+}
+
+.footer-title {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.footer-list {
+  background-color: rgb(46, 47, 53);
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.footer-list a:hover {
+  color: rgb(113, 170, 235);
+}
+
+.footer-list > a {
+  color: white;
+  text-decoration: underline solid;
+  padding: 20px;
+}
+
+.footer-nav {
+  margin-top: 2%;
+  border-radius: 25px;
+  background-color: rgb(46, 47, 53);
+}
+
+@media(min-width:320px) and (max-width:768px) {
+  .footer-list{
+    justify-content: center;
+  }
+}

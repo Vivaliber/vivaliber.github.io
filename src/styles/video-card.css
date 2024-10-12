@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.card-video {
+  width: 80%;
+}
+
+.video-title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}

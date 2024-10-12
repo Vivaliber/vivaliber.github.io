@@ -1,0 +1,19 @@
+.video-page-content{
+    margin-top: 25px;
+}
+
+.video-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video>video{
+    width: 100%;
+   } 
+
+.video>.title{
+    text-align: center;
+    margin: 10px;
+}

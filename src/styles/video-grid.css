@@ -1,0 +1,20 @@
+.video-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+    margin-top: 25px;
+    z-index: 0;
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .video-grid{
+        grid-template-columns: repeat(2, 1fr);
+     }
+}
+
+@media(min-width:320px) and (max-width:768px){
+    .video-grid{
+       grid-template-columns: 1fr;
+    }
+}
+
